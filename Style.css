@@ -1,0 +1,43 @@
+*
+{
+	margin:0;
+	padding:0;
+	family font: Serif;
+}
+header{
+	background-color: #9999;
+}
+.position{
+	padding: 10px;
+}
+h3
+{
+	color: #f3333;
+	font-size: 20px;
+	font-family:Georgia;
+}
+.content{
+	text-align:center;
+	padding:5px;
+}
+ul{
+	float: right;	
+	padding:20px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	color: #fff;
+	padding: 5px 30px;
+	border: 1px solid white;
+	transition: 0.6s ease;
+	
+}
+ul li a:hover{
+	background-color: #888;
+	color: yellow;
+}
+div.text{
+	background-color: #4;
+}
