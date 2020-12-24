@@ -10,19 +10,38 @@
 	</head>
 	<body>
 		<header>
-			<div class="container"> 	
-				<ul>
-					<li><a href="#home">Home</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</div>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				 <div class="container-fluid">
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+						  <a class="nav-link active" aria-current="page" href="#home">Home</a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link active" href="#about">About</a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link active" href="#contact">Contact</a>
+						</li>
+					  </ul>
+					  <form class="d-flex" action="https://google.com/search" target="blank">
+						<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="q">
+						<button class="btn btn-outline-success" type="submit">Search</button>
+					  </form>
+					</div>
+				  </div>
+				</nav>
 			<div class="position">	
-					<h3>Register</h3> 
-					<button type="button" class="btn btn-primary btn-lg">Employer</button>
-					<button type="button" class="btn btn-primary btn-lg">Employee</button><br><br>
+					<h3 style="color: solid black;"><u>Register</u></h3> 
+						<a href="https://forms.gle/vKib2fLAuUZNbxEZ6" id="one" target="blank">Employee</a><br>
+						<a href=" " id="two">Employer</a> 
+            </div>
+			<div class="pos">	
 					<h3>Login</h3>
-					<button type="button" class="btn btn-secondary btn-lg">Login</button>
+					<a href="">Login</a>
 			</div>
 		</header>
 		<header>
@@ -46,12 +65,7 @@
 				<h1 id="contact"><u>Contact</u></h1>
 				<p>Thrivikram: 8050979492</p>
 			</div>
-			<div class="text">
-				<form action="https://google.com/search" target="blank" style="text-align; padding: 20px;">
-					<input type="text" name="q" placeholder="Job title">
-					<button type="button">Find more jobs on Google</button>
-				</form>
-		</div>		
+		
 		</header>
 	</body>
 </html>
